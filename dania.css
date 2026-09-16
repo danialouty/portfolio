@@ -1,0 +1,143 @@
+body{
+    background-color: #212529;
+    color: #f8f9fa;
+     font-family: 'Fira Code', monospace;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+   margin-top:2rem;
+   margin-bottom: 2rem;
+    
+
+}
+.hashtag{
+    color: #C778DD;
+
+}
+.left-side{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    width: 500px;
+}
+
+.startbutton{
+    background-color: #212529;
+    cursor: pointer;
+    border: 1px solid #C778DD;
+    color: #f8f9fa;
+}
+
+
+
+.quote-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.quote-box {
+  border: 1px solid #7a828e;
+  padding: 20px 30px;
+  text-align: center;
+  width: 600px;
+
+    
+
+}
+
+
+.quote-text {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.author-box {
+  border: 1px solid #7a828e;
+  padding: 10px 20px;
+  text-align: right;
+  margin-left: auto; 
+  
+}
+
+.author-text {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+.quote-icon {
+  position: absolute;
+  background-color: #2c2f36; 
+  padding: 0 8px;
+  font-size: 24px;
+  color: #7a828e;
+  line-height: 1;
+}
+
+.skills{
+    display: flex;
+   margin-top:2rem;
+   margin-bottom: 2rem;
+    margin-left: 5rem;
+        margin-right: 5rem;
+
+
+
+}
+.cardheader{
+    position: sticky;
+    top: 0;
+}
+
+
+
+.skill{
+
+    
+}
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: .5rem;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  margin-top:2rem;
+   margin-bottom: 2rem;
+    margin-left: 5rem;
+     margin-right: 5rem;
+
+}
+
+.skill-card {
+  border: 1px solid #abb2bf;
+  width: 180px; 
+  flex: 1; 
+  max-width: 250px; 
+}
+
+
+.card-header {
+  border-bottom: 1px solid #abb2bf; 
+  padding: 8px 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.card-body {
+  padding: 12px;
+  color: #abb2bf; 
+  line-height: 1.6;
+  word-spacing: 8px; }
+
+  
