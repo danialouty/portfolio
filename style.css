@@ -102,7 +102,6 @@ section{
 
 .quote-text {
   font-size: 20px;
-  letter-spacing: 1px;
 }
 
 .author-box {
@@ -115,17 +114,14 @@ section{
 
 .author-text {
   font-size: 16px;
-  letter-spacing: 1px;
 }
 
 
 .quote-icon {
   position: absolute;
   background-color: #2c2f36; 
-  padding: 0 8px;
   font-size: 24px;
   color: #7a828e;
-  line-height: 1;
 }
 
 .name{
