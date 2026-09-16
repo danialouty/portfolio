@@ -255,3 +255,10 @@ section{
   .contact-container { margin: 0 1rem; }
   .form-row { flex-direction: column; }
 }
+
+
+.startbutton:hover {
+    background-color: #C778DD;
+    color: #212529;
+    border: 1px solid #C778DD;
+}
