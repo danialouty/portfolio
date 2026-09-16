@@ -201,3 +201,57 @@ section{
 }
 
 
+
+
+
+
+.contact-container {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top:2rem;
+   margin-bottom: 2rem;
+    margin-left: 5rem;
+     margin-right: 5rem;
+     gap: 2rem;
+    
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-row input, .form-group input, .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #abb2bf;
+  color: #f8f9fa;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  outline: none;
+}
+
+
+
+
+/* زر الإرسال */
+.send-btn {
+  align-self: flex-start;
+  padding: 10px 24px;
+}
+
+/* التجاوب مع الهواتف لشاشات 768px وأقل */
+@media (max-width: 768px) {
+  .contact-container { margin: 0 1rem; }
+  .form-row { flex-direction: column; }
+}
