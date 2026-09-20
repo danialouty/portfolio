@@ -1,18 +1,8 @@
 
 @media (max-width: 768px) {
-  .container,
-  .skills-container,
-  .project-container { flex-direction: column; }
-
-  .left-side,
-  .quote-box,
-  .project-card { width: 100%; }
-
-  .container img { max-width: 100%; height: auto; }
-
-  .name,
-  .skills-container,
-  .project-container { margin-left: 1rem; margin-right: 1rem; }
+  .container {
+    flex-direction: column;
+  }
 }
 
 
@@ -322,11 +312,6 @@ section{
 
 
 
-@media (max-width: 768px) {
-  .contact-container { margin: 0 1rem; }
-  .form-row { flex-direction: column; }
-
-}
 
 
 .startbutton:hover {
